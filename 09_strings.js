@@ -21,7 +21,7 @@ const newString = gameName.substring(0, 4)
 console.log(newString);
 // if we give -ve values to the substring method then it will ignore it and starts from 0
 
-const anotherString = gameName.slice(1, -4)
+const anotherString = gameName.slice(-17, 9)
 console.log(anotherString);
 // in slice we can also give -ve index value
 
